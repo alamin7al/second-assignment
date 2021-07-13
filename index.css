@@ -65,24 +65,21 @@ font-weight: 700;
 }
 .container {
 background-color: rgb(86, 86, 209);
-height: 500px;
+height: 400px;
 padding: 0 30px;
 margin-bottom: 50px;
 
 }
 .container:hover{
-    background-color: rgb(83, 172, 152);
-    transform: translatex(-15px) 
+    background-color: rgb(44, 41, 179);
+    transform: translatey(-15px) 
 
 }
 .flex{
-   
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
     justify-content: center;
- 
-
 }
 
 /* header section css end */
@@ -101,19 +98,17 @@ transition: transform 0.2s ease-in;
 }
 
 .players{
-padding: 0 150px;
 display: grid;
 grid-template-columns: repeat(3,1fr);
 gap: 30px;
 color: black;
-
 margin-bottom: 30px;
-
+justify-content: center;
 }
 .player-card{
     color: black;
     transition: transform 0.2s ease-in;
-
+justify-content: center;
 width: 270px;
 padding: 3px 3px 10px 7px;
 box-shadow: 1px 2px 5px rgb(10, 7, 7);
@@ -207,54 +202,66 @@ footer style start end */
 
 
 /* @media screen  start */
-
-
-@media (max-width:767px) {
-
-.flex{
-    grid-template-columns: repeat(1,1fr);
-
-}
-.container{
-    height: 800px;
-}
-.text-area{
-   margin-left: 30px;
-
-}
-
-.players{
-   padding: 0px auto;
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-    gap: 30px;
-    color: black;
-    
-    margin-bottom: 30px;
-    
-    }
-   
-    .extra-card{
-        display: grid;
-
+@media (max-width:1440px){
+    .player-card{
+        margin-left: 40px;
     }
 }
+@media (max-width:1024px) {
+    .container {
+        height: 670px;
+        }
+        .flex{
+            grid-template-columns: repeat(2,1fr);
+        }
+        .text-area{
+            margin-left: 30px;
+        }
+        .players{
+           
+            grid-template-columns: repeat(2,1fr);
+           margin-left: 100px;        
+            }       
+           .extra-card{
+               padding: 0px 0px 0px 10px;
+           }
+}
+@media (max-width:667px) {
+    .container {
+        height: 670px;
+        }
+        .flex{
+            grid-template-columns: repeat(1,1fr);
+        }
+        .text-area{
+            margin-left: 30px;
+        }
+        .players{
+           
+            grid-template-columns: repeat(1,1fr);
+           margin-left: 100px;          
+        }        
+           .extra-card{
+               padding: 0px 0px 0px 10px;
+           }
+}
 
 
 
-@media(min-width:689px) and (max-width:1023px) {
-    
+
+
+
+
+/* @media(max-width:768px){
     .players{
         padding: 0 150px;
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(1,1fr);
         gap: 30px;
         color: black;
-        
         margin-bottom: 30px;
-        
         }
-   }
+   } */
 
 
 /* @media screen  end */
