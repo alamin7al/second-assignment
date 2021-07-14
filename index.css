@@ -251,7 +251,7 @@ footer style start end */
     .container {
         height: 100%;
         width: 100%;
-        background-color: red;
+        background-color: rgb(192, 160, 160);
         }
         .img{
            width: 340px;
@@ -262,7 +262,7 @@ footer style start end */
         }
        
         .players{
-            width: 340px;
+            margin-right: 50px;
 
             grid-template-columns: repeat(1,1fr);
            
