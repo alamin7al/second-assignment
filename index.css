@@ -248,7 +248,7 @@ footer style start end */
             margin-left: 30px;
         }
         .players{
-           
+           padding: 0px 150px;
             grid-template-columns: repeat(3,1fr);
 
                   
@@ -273,7 +273,7 @@ footer style start end */
         .players{
            
             grid-template-columns: repeat(2,1fr);
-             margin-left: 50px;
+            padding: 0px 90px;
              
         }    
         .player-card{
