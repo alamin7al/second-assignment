@@ -295,14 +295,7 @@ footer style start end */
             grid-template-columns: repeat(1,1fr);
            
         }      
-        .player-card  {
-            width: 450px;
-            margin-left: 50px;
-        }
-        .player-img{
-            width: 440px;
-            height: auto;
-        }
+        
            .extra-card{
                padding: 0px 0px 0px 10px;
            }
