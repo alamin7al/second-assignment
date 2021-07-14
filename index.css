@@ -188,6 +188,10 @@ main sectaion css end */
     transition: transform 0.2s ease-in;
 
 }
+.copy{
+    color: black;
+    font-weight: 900;
+}
 .main-footer:hover{
 
     transform: translatey(-15px) 
@@ -262,7 +266,7 @@ footer style start end */
         }
        
         .players{
-            margin-right: 50px;
+            margin-right: 150px;
 
             grid-template-columns: repeat(1,1fr);
            
