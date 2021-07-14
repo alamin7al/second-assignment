@@ -225,7 +225,7 @@ footer style start end */
 
 
 /* @media screen  start */ 
-@media (min-width:1024px)  {
+/* @media (min-width:1024px)  {
     .container {
         height: 500px;
         }
@@ -236,20 +236,20 @@ footer style start end */
         column-gap: 10px;
         margin: 0px;
     }
-}
-@media (max-width:1023px) {
+} */
+@media (min-width:769px) {
     .container {
         height: 670px;
         }
         .flex{
-            grid-template-columns: repeat(2,1fr);
+            grid-template-columns: repeat(3,1fr);
         }
         .text-area{
             margin-left: 30px;
         }
         .players{
            
-            grid-template-columns: repeat(2,1fr);
+            grid-template-columns: repeat(3,1fr);
            margin-left: 100px;        
             }       
            .extra-card{
@@ -261,17 +261,21 @@ footer style start end */
         height: 670px;
         }
         .flex{
-            grid-template-columns: repeat(1,1fr);
+            grid-template-columns: repeat(2,1fr);
         }
         .text-area{
-            margin-left: 30px;
+            margin-left: 0px;
         }
         .players{
            
             grid-template-columns: repeat(2,1fr);
-           margin-left: 100px;     
-              column-gap: 5px;
-        }        
+             margin-left: 50px;
+             
+        }    
+        .player-card{
+            margin: 0;
+
+        }    
            .extra-card{
                padding: 0px 0px 0px 10px;
            }
@@ -285,7 +289,7 @@ footer style start end */
         }
         .img{
            width: 340px;
-           
+          
 
         }
         .flex{
@@ -294,82 +298,25 @@ footer style start end */
 
         }
        
-       .player-card{
-           margin-left: 50px;
-           margin-top: 10px;
-
-       }
+     
         .players{
             height: 100%;
-            margin-right: 150px;
+            width: 100%;
             
-
-            grid-template-columns: repeat(1,1fr)
+            grid-template-columns: repeat(1,300px)
            
         }      
+        .player-card{
         
+
+
+        }
            .extra-card{
             overflow: hidden;
 
                padding: 0px 0px 0px 10px;
            }
 }
-
-
-@media (max-width:500px) {
-    .container {
-        height: 550px;
-        width: 100%;
-        
-        }
-        .img{
-           width: 340px;
-           
-
-        }
-        .flex{
-            grid-template-columns: repeat(1,1fr);
-            
-
-        }
-       
-       .player-card{
-           margin-right: 50px;
-           margin-top: 10px;
-
-       }
-        .players{
-            height: 100%;
-           
-            
-
-            grid-template-columns: repeat(1,1fr)
-           
-        }      
-        
-           .extra-card{
-            overflow: hidden;
-
-               padding: 0px 0px 0px 10px;
-           }
-}
-
-
-
-
-/* @media(max-width:768px){
-    .players{
-        padding: 0 150px;
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        gap: 30px;
-        color: black;
-        margin-bottom: 30px;
-        }
-   } */
-
-
-/* @media screen  end */
 
 
 
