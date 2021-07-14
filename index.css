@@ -6,12 +6,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    cursor: pointer;
 }
 body{
 text-transform: capitalize;
 font-family: 'Zen Loop', cursive;
 font-size: 18px;
-
+cursor: pointer;
 }
 a{
     text-decoration: none;
@@ -45,6 +46,15 @@ p{
 .main-text{
 color: white;
 font-weight: 700;
+transition: transform 0.2s ease-in;
+
+}
+.main-text:hover{
+    font-weight: 900;
+    color: rgb(0, 211, 248);
+    transform: translate(-15px) 
+    
+
 }
 .btn{
     outline: none;
@@ -64,14 +74,17 @@ font-weight: 700;
 
 }
 .container {
-background-color: rgb(86, 86, 209);
+    background-color: rgb(44, 41, 179);
+
 height: 400px;
 padding: 0 30px;
 margin-bottom: 50px;
+transition:  transform 0.4s ease-in;
 
 }
 .container:hover{
-    background-color: rgb(44, 41, 179);
+    background-color: rgb(86, 86, 209);
+
     transform: translatey(-15px) 
 
 }
@@ -186,7 +199,7 @@ main sectaion css end */
     height: 100px;
     margin-bottom: 50px;
     transition: transform 0.2s ease-in;
-
+margin-bottom: 90px;
 }
 .copy{
     color: black;
@@ -197,9 +210,13 @@ main sectaion css end */
     transform: translatey(-15px) 
 
 }
+.fab{
+    color: black;
+}
 .icon{
     text-align: center;
     align-items: center;
+
 }
 /* 
 footer style start end */
@@ -208,8 +225,15 @@ footer style start end */
 /* @media screen  start */
 
 @media (max-width:1440px){
+    .container {
+        height: 500px;
+        }
     .player-card{
-        margin-left: 40px;
+        margin: 10px 10px 10px 100px;
+    }
+    .players{
+        column-gap: 10px;
+        margin: 0px;
     }
 }
 @media (max-width:1024px) {
@@ -254,9 +278,8 @@ footer style start end */
 
 @media (max-width:667px) {
     .container {
-        height: 100%;
+        height: 550px;
         width: 100%;
-        background-color: rgb(223, 107, 12);
         }
         .img{
            width: 340px;
