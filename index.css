@@ -250,8 +250,12 @@ footer style start end */
         .players{
            
             grid-template-columns: repeat(3,1fr);
-           margin-left: 100px;        
-            }       
+
+                  
+            }  
+            .player-card{
+                margin: 0px auto
+            }     
            .extra-card{
                padding: 0px 0px 0px 10px;
            }
@@ -281,41 +285,34 @@ footer style start end */
            }
 }
 
-@media (max-width:667px) {
-    .container {
+@media (max-width:668px) {
+     .container {
         height: 550px;
         width: 100%;
         
-        }
-        .img{
+        } 
+         .img{
            width: 340px;
           
 
-        }
-        .flex{
+        } 
+       .flex{
             grid-template-columns: repeat(1,1fr);
             
 
         }
-       
+        
      
-        .players{
-            height: 100%;
-            width: 100%;
-            
+        .players{  
             grid-template-columns: repeat(1,300px)
            
-        }      
-        .player-card{
+        }       
         
-
-
-        }
            .extra-card{
             overflow: hidden;
 
                padding: 0px 0px 0px 10px;
-           }
+           } 
 }
 
 
