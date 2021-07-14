@@ -111,6 +111,7 @@ transition: transform 0.2s ease-in;
 }
 
 .players{
+    margin: 1px;
 display: grid;
 grid-template-columns: repeat(3,1fr);
 gap: 10px;
@@ -119,6 +120,7 @@ margin-bottom: 30px;
 justify-content: center;
 }
 .player-card{
+    margin: 10px 1px;
     color: black;
     transition: transform 0.2s ease-in;
 justify-content: center;
@@ -222,8 +224,7 @@ margin-bottom: 90px;
 footer style start end */
 
 
-/* @media screen  start */
-
+/* @media screen  start */ 
 @media (min-width:1024px)  {
     .container {
         height: 500px;
@@ -236,7 +237,7 @@ footer style start end */
         margin: 0px;
     }
 }
-@media (min-width:768px) and (max-width:1023px) {
+@media (max-width:1023px) {
     .container {
         height: 670px;
         }
@@ -299,10 +300,11 @@ footer style start end */
 
        }
         .players{
+            height: 100%;
             margin-right: 150px;
             
 
-            grid-template-columns: repeat(1,1fr);
+            grid-template-columns: repeat(1,1fr)
            
         }      
         
@@ -313,6 +315,44 @@ footer style start end */
            }
 }
 
+
+@media (max-width:500px) {
+    .container {
+        height: 550px;
+        width: 100%;
+        
+        }
+        .img{
+           width: 340px;
+           
+
+        }
+        .flex{
+            grid-template-columns: repeat(1,1fr);
+            
+
+        }
+       
+       .player-card{
+           margin-right: 50px;
+           margin-top: 10px;
+
+       }
+        .players{
+            height: 100%;
+           
+            
+
+            grid-template-columns: repeat(1,1fr)
+           
+        }      
+        
+           .extra-card{
+            overflow: hidden;
+
+               padding: 0px 0px 0px 10px;
+           }
+}
 
 
 
