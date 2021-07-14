@@ -224,7 +224,7 @@ footer style start end */
 
 /* @media screen  start */
 
-@media (min-width:1024px) and (max-width:1400px) {
+@media (min-width:1024px)  {
     .container {
         height: 500px;
         }
@@ -236,7 +236,7 @@ footer style start end */
         margin: 0px;
     }
 }
-@media (min-width:768px) and (max-width:1024px) {
+@media (min-width:768px) and (max-width:1023px) {
     .container {
         height: 670px;
         }
@@ -280,25 +280,35 @@ footer style start end */
     .container {
         height: 550px;
         width: 100%;
+        
         }
         .img{
            width: 340px;
+           
+
         }
         .flex{
             grid-template-columns: repeat(1,1fr);
+            
 
         }
+       
        .player-card{
            margin-left: 50px;
+           margin-top: 10px;
+
        }
         .players{
             margin-right: 150px;
+            
 
             grid-template-columns: repeat(1,1fr);
            
         }      
         
            .extra-card{
+            overflow: hidden;
+
                padding: 0px 0px 0px 10px;
            }
 }
