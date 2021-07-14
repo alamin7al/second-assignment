@@ -288,7 +288,9 @@ footer style start end */
             grid-template-columns: repeat(1,1fr);
 
         }
-       
+       .player-card{
+           margin-left: 50px;
+       }
         .players{
             margin-right: 150px;
 
