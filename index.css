@@ -249,18 +249,21 @@ footer style start end */
 
 @media (max-width:667px) {
     .container {
-     
+        height: 100%;
+        width: 100%;
         background-color: red;
         }
         .img{
-           width: 400px;
+           width: 340px;
         }
         .flex{
             grid-template-columns: repeat(1,1fr);
+
         }
        
         .players{
-           
+            width: 340px;
+
             grid-template-columns: repeat(1,1fr);
            
         }        
