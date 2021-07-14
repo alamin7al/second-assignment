@@ -239,10 +239,10 @@ footer style start end */
 } */
 @media (min-width:769px) {
     .container {
-        height: 670px;
+        height: 500px;
         }
         .flex{
-            grid-template-columns: repeat(3,1fr);
+            grid-template-columns: repeat(2,1fr);
         }
         .text-area{
             margin-left: 30px;
